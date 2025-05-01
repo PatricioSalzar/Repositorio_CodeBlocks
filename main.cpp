@@ -5,15 +5,21 @@ using namespace std;
 int main()
 {
 
-    cout << "HOLA MI GENTEEEE" << endl;
-    cout << "UN NUEVO MENSAJE" << endl;
-    cout << "CHUPALA DANTEEEE, A PEDIDO DE AGU" << endl;
-    cout<< "pato toca nenasss"<<endl;
-    cout<< "pato toca nenasss"<<endl;
-    cout<< "Agus catador de bananas con la cola"<<endl;
+    float peso;
 
+    cout << "Ingrese su peso en kilos: " << endl;
+    cin>>peso;
 
+    if (peso >= 60)
+    {
 
+        cout << "Gorda de mierda." << endl;
+
+    }
+    else if (peso < 60)
+    {
+        cout << "te salvaste" << endl;
+    }
 
     return 0;
 }
