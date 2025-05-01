@@ -24,6 +24,7 @@ int main()
     }
 
     system("cls");
+    system("pause");
 
     cout << "Ingrese su color de piel: " << endl;
     cin>>piel;
